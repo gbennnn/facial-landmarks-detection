@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Image</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-2xl font-bold mb-4">Upload Gambar untuk Deteksi</h1>
+    <form method="POST" enctype="multipart/form-data" class="flex flex-col space-y-4 items-center">
+        <input type="file" name="file" accept="image/*" class="bg-gray-800 p-2 rounded-lg">
+        <button type="submit" class="bg-green-500 hover:bg-green-700 px-6 py-2 rounded-lg">Upload & Deteksi</button>
+    </form>
+    <a href="{{ url_for('index') }}" class="mt-6 bg-gray-700 hover:bg-gray-900 px-4 py-2 rounded-lg">Kembali</a>
+</body>
+</html>
