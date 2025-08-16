@@ -30,8 +30,8 @@ A web-based application built with **Flask**, **OpenCV**, and **MediaPipe** to d
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/age-gender-landmark-flask.git
-cd age-gender-landmark-flask
+git clone https://github.com/gbennnn/facial-landmarks-detection.git
+cd facial-landmarks-detection
 
 ```
 
