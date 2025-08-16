@@ -1,2 +1,5 @@
-myvnv/
 myvnv/*
+myvnv/
+
+__pycache__/*
+__pycache__/
